@@ -31,11 +31,25 @@ it was running till i get out of npm start terminal
 
 
 you need:
+
+
 AWS account firstly
+
+
 install AWS cli
+
+
 install IaC tool like terraform for infrastructure development
+
+
 access token from github Account with all permission required for it
+
+
 run build pipeline in aws amplify console
+
+
 connect aws amplify with github account in case required.
+
+
 connect ssl certificate to AWS amplify url if you want to host to a domain or sub domain.
 
