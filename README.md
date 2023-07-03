@@ -16,6 +16,8 @@ $ npm run build
 $ npm start
 
 ===note===
+
+
 please run them on any ec2 instance for quick results as sometimes laptops processor might take time to build.(e.g. in my case i took c5.large instance for running them)
 
 while you run npm start command
@@ -24,7 +26,10 @@ but in my case it's my ip was running on 65.2.150.15
 so while i hit 65.2.150.15:3000 in browser
 it was running till i get out of npm start terminal
 
+
 2.what are the required tools for running these codes on aws amplify?
+
+
 you need:
 AWS account firstly
 install AWS cli
