@@ -74,6 +74,8 @@ configure it to automate your aws acoount
 ===note===
 
 kindly create an iam user with roles for admin access for aws amplify.
+it is recommended for security purposes to create an iam user and an add security credentials.
+download csv file which includes secret key and acess key configure using aws configure command.
 
 4.terraform installation
 
@@ -94,3 +96,39 @@ then if you run terraform --version on command prompt or powershell will show th
 $ cd terraform (inside bs_assessment project folder)
 
 $ terraform init (these will run main.tf file for configuration)
+
+$ terraform plan (to check the processes running and all changes that will affect aws amplify)
+
+$ terraform apply (it will prompt for yes to apply just write yes to add changes)
+
+this will create a infrastructure aws amplify with the name Spacetourism app
+
+6. build pipeline && connect github app for detecting next js framework automatically connect the repos.
+
+first of all select any branch connected any in connect branch section of aws amplify console and disconnect it.
+
+then connect main branch with github provider and provide iam role as added in iam user for permissions
+
+aws amplify automatically detect the next js frame work then save it.
+
+then run deploy the build main build section it will take few time.
+
+it will cover three steps with provision,build and deploy.
+
+if all ticked then successfully deployed otherwise need to check codes.
+
+my amplify url is such https://main.d33mysnqlo4ijm.amplifyapp.com/
+
+7.connect ssl certificate to AWS amplify url if you want to host to a domain or sub domain.
+
+if you don't want users to show the amplify url can connect them using steps section in amplify console and there you can give access to root domain or can make sub domain access.
+
+this will create a cname record automatically on route53.then after few minutes you can see your codes in desired subdomains. 
+
+my subdomain dns hosted on is https://alpha.laxxonly.shop/
+
+
+
+
+
+
