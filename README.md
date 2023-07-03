@@ -91,7 +91,10 @@ add new with address c:/programs/terraform
 
 then if you run terraform --version on command prompt or powershell will show the terraform version 1.52
 
-5. run terraform file
+5. create a gihub token for authentication access with required permission in developers setting of your own github  account.
+
+
+6. run terraform file
 
 $ cd terraform (inside bs_assessment project folder)
 
@@ -103,7 +106,7 @@ $ terraform apply (it will prompt for yes to apply just write yes to add changes
 
 this will create a infrastructure aws amplify with the name Spacetourism app
 
-6. build pipeline && connect github app for detecting next js framework automatically connect the repos.
+7. build pipeline && connect github app for detecting next js framework automatically connect the repos.
 
 first of all select any branch connected any in connect branch section of aws amplify console and disconnect it.
 
@@ -119,7 +122,7 @@ if all ticked then successfully deployed otherwise need to check codes.
 
 my amplify url is such https://main.d33mysnqlo4ijm.amplifyapp.com/
 
-7.connect ssl certificate to AWS amplify url if you want to host to a domain or sub domain.
+8.connect ssl certificate to AWS amplify url if you want to host to a domain or sub domain.
 
 if you don't want users to show the amplify url can connect them using steps section in amplify console and there you can give access to root domain or can make sub domain access.
 
